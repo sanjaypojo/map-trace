@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Map-trace : Fiddling around with the google maps api">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <title>Map-trace</title>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWHhv3M8_W79FoMMntkOSsCkt8aVgT2Lk"></script>
+    <title>Map Trace</title>
   </head>
 
   <body>
-
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
@@ -18,14 +18,19 @@
           <h2 id="project_tagline">Fiddling around with the google maps api</h2>
         </header>
     </div>
-
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>
-          <a name="lets-plot-stuff-on-a-map" class="anchor" href="#lets-plot-stuff-on-a-map"><span class="octicon octicon-link"></span></a>Lets plot stuff on a map!
+          <a name="lets-plot-stuff-on-a-map" class="anchor" href="#lets-plot-stuff-on-a-map"><span class="octicon octicon-link"></span></a>Plotting all vehicles with speed and ID
         </h3>
-        <p>Blah blah blah:</p>
+        <p>
+          Mousover on a marker for 3-4 seconds to see speed and ID
+        </p>
+        <br>
+        <div id="map-canvas">
+
+        </div>
       </section>
     </div>
     <!-- FOOTER  -->
@@ -35,5 +40,7 @@
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
+    <script type='text/javascript' src='javascripts/gpsData.js'></script>
+    <script type='text/javascript' src='javascripts/main.js'></script>
   </body>
 </html>
