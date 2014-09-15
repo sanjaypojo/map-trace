@@ -32,7 +32,7 @@ var initialize = function() {
       icon: L.mapbox.marker.icon({
         'marker-color': '#f86767'
       })
-    }).addTo(mapBox)
+    }).addTo(mapBox);
   }
 }
 
